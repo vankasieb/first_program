@@ -7,9 +7,9 @@ public class first_program {
     public static void main(String[] args) {
         //System.out.println("Hello, World");
         //Commit again
-        String[] sArray = {"1","2","3","4","5"};
-       for (int x=0; x<sArray.length;){
-            System.out.println(sArray[x++]);
+        String[] sArray = {"1","2","3","4","4"};
+       for (String s : sArray){
+            System.out.println(s);
         }
 
     }
